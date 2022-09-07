@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    height: max-content;
+    width: max-content;
+    display: none;
+}
